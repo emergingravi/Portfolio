@@ -62,7 +62,7 @@ body {
   filter: blur(6px);
   transition:
     opacity 0.8s ease,
-    transform 0.8s ease,
+    transform 0.35s ease,
     filter 0.8s ease;
   will-change: opacity, transform, filter;
 }
@@ -74,27 +74,27 @@ body {
 }
 
 .reveal[data-delay="1"] {
-  transition-delay: 0.08s;
+  transition-delay: 0.02s;
 }
 
 .reveal[data-delay="2"] {
-  transition-delay: 0.16s;
+  transition-delay: 0.04s;
 }
 
 .reveal[data-delay="3"] {
-  transition-delay: 0.24s;
+  transition-delay: 0.06s;
 }
 
 .reveal[data-delay="4"] {
-  transition-delay: 0.32s;
+  transition-delay: 0.08s;
 }
 
 .floaty {
-  animation: floaty 6s ease-in-out infinite;
+  animation: floaty 2s ease-in-out infinite;
 }
 
 .floaty-slow {
-  animation: floaty 9s ease-in-out infinite;
+  animation: floaty 3s ease-in-out infinite;
 }
 
 @keyframes floaty {

@@ -37,7 +37,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.05, rootMargin: '0px 0px -120px 0px' }
     );
     elements.forEach((element) => observer.observe(element));
     return () => observer.disconnect();
@@ -81,16 +81,22 @@ export default function Home() {
       image: "/fire.jpg",
     },
     {
-      title: "Judicial App Development",
+      title: "Judicial App ",
       type: "Software project",
       link: "https://judicialportal.netlify.app/",
       image: "/judicial.jpg",
     },
     {
-      title: "Clothing App Development",
+      title: "Clothing App ",
       type: "Client project",
       link: "https://evarabridalstudio.vercel.app/",
       image: "/clothing.jpg",
+    },
+    {
+      title: "Home Rental App",
+      type: "Software project",
+      link: "https://basairentalapp.vercel.app/",
+      image: "/rental.png",
     },
   ];
 
@@ -391,7 +397,8 @@ export default function Home() {
                       src={project.image}
                       alt={`${project.title} preview`}
                       fill
-                      className="object-cover transition duration-500 group-hover:scale-[1.06]"
+                      loading="eager"
+                      className="object-cover transition duration-200 group-hover:scale-[1.06]"
                     />
                   </div>
                 </div>
