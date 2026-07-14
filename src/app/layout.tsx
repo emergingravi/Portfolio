@@ -16,33 +16,40 @@ const body = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ssravi.com.np"),
-  title: "Ravi Shankar Sah — UI/UX Designer, Developer & Researcher",
+  title: "Ravi Shankar Sah — Full-Stack Developer, UI/UX Designer & AI/ML Researcher",
   description:
-    "Ravi Shankar Sah is a UI/UX designer, web developer, and AI/ML researcher from Nepal. Explore projects, research, and services.",
+    "Ravi Shankar Sah is a full-stack developer, UI/UX designer, and AI/ML researcher from Nepal, building web, AI, and IoT products with React, Next.js, and Python. Explore projects, research, and services.",
   keywords: [
     "Ravi Shankar Sah",
+    "Full-Stack Developer",
     "UI/UX Designer",
     "Web Designer",
     "Web Developer",
     "Frontend Developer",
     "React",
     "Next.js",
+    "TypeScript",
     "Tailwind CSS",
     "JavaScript",
     "HTML",
     "CSS",
     "Figma",
+    "Supabase",
+    "Firebase",
     "Machine Learning",
     "AI Research",
+    "IoT",
+    "Arduino",
     "Nepal",
+    "Nepal Developer",
   ],
   alternates: {
     canonical: "https://ssravi.com.np",
   },
   openGraph: {
-    title: "Ravi Shankar Sah — UI/UX Designer, Developer & Researcher",
+    title: "Ravi Shankar Sah — Full-Stack Developer, UI/UX Designer & AI/ML Researcher",
     description:
-      "Portfolio of Ravi Shankar Sah featuring UI/UX design, web development, and AI/ML research.",
+      "Portfolio of Ravi Shankar Sah — full-stack development, UI/UX design, and AI/ML research, with projects spanning web, machine learning, and IoT.",
     url: "https://ssravi.com.np",
     siteName: "Ravi Shankar Sah",
     images: [
@@ -58,9 +65,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ravi Shankar Sah — UI/UX Designer, Developer & Researcher",
+    title: "Ravi Shankar Sah — Full-Stack Developer, UI/UX Designer & AI/ML Researcher",
     description:
-      "Portfolio of Ravi Shankar Sah featuring UI/UX design, web development, and AI/ML research.",
+      "Portfolio of Ravi Shankar Sah — full-stack development, UI/UX design, and AI/ML research, with projects spanning web, machine learning, and IoT.",
     images: ["/pp.jpg"],
   },
   robots: {
