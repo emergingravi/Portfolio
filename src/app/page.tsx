@@ -168,7 +168,7 @@ export default function Home() {
       >
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-md bg-[#0b111b] text-[#5cf2ff] shadow-[0_0_18px_rgba(92,242,255,0.45)]">
-            RS
+            RSS
           </div>
           <div className="leading-tight">
             <p className="text-sm uppercase tracking-[0.25em] text-[#9fb3cc]">
@@ -212,7 +212,7 @@ export default function Home() {
              Building modern web, AI, and IoT products with clarity and purpose.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-[#9fb3cc]">
-             I&apos;m Ravi Shankar Sah, a full-stack developer, UI/UX designer,
+             I&apos;m <b>Ravi Shankar Sah</b>, a full-stack developer, UI/UX designer,
               and AI/ML researcher from Nepal. I build web, AI, and IoT
               products with React, Next.js, and Python.
             </p>
