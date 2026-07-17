@@ -209,12 +209,12 @@ export default function Home() {
               Web Designer · Developer · Researcher
             </p>
             <h1 className="font-[var(--font-display)] text-4xl leading-tight text-[#e6f0ff] sm:text-5xl md:text-6xl">
-              Designing digital products that feel effortless and human.
+             Building modern web, AI, and IoT products with clarity and purpose.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-[#9fb3cc]">
-              I&apos;m Ravi Shankar Sah, a UI/UX designer, web developer, and
-              AI/ML enthusiast from Nepal. I craft interfaces, build web apps,
-              and research healthcare problems with machine learning.
+             I&apos;m Ravi Shankar Sah, a full-stack developer, UI/UX designer,
+              and AI/ML researcher from Nepal. I build web, AI, and IoT
+              products with React, Next.js, and Python.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
